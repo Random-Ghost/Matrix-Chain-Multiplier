@@ -17,5 +17,3 @@ def matrix_chain_multiplier(dim_arr):
     n = len(dim_arr)
     return matrix_chain_multiplier_helper(dim_arr, 0, n - 1)
 
-
-print(matrix_chain_multiplier([1, 2, 3, 4, 3]))
